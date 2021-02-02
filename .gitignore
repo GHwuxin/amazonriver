@@ -135,3 +135,6 @@ $RECYCLE.BIN/
 .idea/inspectionProfiles/
 .idea/workspace.xml
 amazonriver
+
+*.json
+amazonriver*

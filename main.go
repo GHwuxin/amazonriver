@@ -28,7 +28,7 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
-var configfile = flag.String("config", "", "config")
+var configfile = flag.String("config", "./config.json", "config")
 var loglevel = flag.String("level", "debug", "log level")
 func main() {
 	flag.Parse()
